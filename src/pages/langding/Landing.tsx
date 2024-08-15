@@ -1,3 +1,4 @@
+import AchieveMent from "./AchieveMent";
 import AdviseBanner from "./AdvaiseBanner";
 import Community from "./Community";
 import DepartmentInfo from "./department/DepartmentInfo";
@@ -12,6 +13,7 @@ const Landing = () => {
       <AdviseBanner />
       {/* <Community /> */}
       <NoticeAndEvent />
+      <AchieveMent />
     </div>
   );
 };

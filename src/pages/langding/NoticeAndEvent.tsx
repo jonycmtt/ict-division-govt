@@ -3,7 +3,7 @@ import EventSlider from "./EventSlider";
 const NoticeAndEvent = () => {
   return (
     <div
-      className="py-20 "
+      className="pt-20 pb-36"
       style={{
         backgroundImage:
           "url(https://gramotech.net/html/balad/images/eventsbg.jpg)",
