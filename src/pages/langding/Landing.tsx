@@ -1,3 +1,4 @@
+import AdviseBanner from "./AdvaiseBanner";
 import DepartmentInfo from "./department/DepartmentInfo";
 import EServices from "./EServices/EServices";
 
@@ -6,6 +7,7 @@ const Landing = () => {
     <div>
       <DepartmentInfo />
       <EServices />
+      <AdviseBanner />
     </div>
   );
 };
