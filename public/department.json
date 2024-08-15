@@ -1,0 +1,152 @@
+[
+  {
+    "name": "About Us",
+    "image": "https://ictd.gov.bd/sites/default/files/files/ictd.portal.gov.bd/front_service_box/142fc8d5_3b18_4538_a4e2_f6fdb20cf01d/aboutus2.png",
+    "items": [
+      "Vision & Mission",
+      "Organogram",
+      "Officers/Staff",
+      "Work Distribution"
+    ]
+  },
+  {
+    "name": "Notice/Order/Circular",
+    "image": "https://ictd.gov.bd/sites/default/files/files/ictd.portal.gov.bd/front_service_box/d84b6e38_c2f2_4e52_84ed_74df4598eabb/%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%B0_0.png",
+    "items": [
+      "Notification/Circular",
+      "Office Orders/Government Orders (GO)/ No Objection Certificate (NOC)",
+      "News Notifications",
+      "Tender/Recruitment Notice"
+    ]
+  },
+  {
+    "name": "Policies & Publications",
+    "image": "https://ictd.gov.bd/sites/default/files/files/ictd.portal.gov.bd/front_service_box/f7bf4d4e_0379_4230_a324_cc855d5e4e59/POLICY_PUBLICATION-New%20(1).png",
+    "items": [
+      "Policy",
+      "Laws & Regulations/Guidelines & Strategies",
+      "Publications & Annual Report",
+      "Other Reports"
+    ]
+  },
+  {
+    "name": "Citizen e-Services",
+    "image": "https://ictd.gov.bd/sites/default/files/files/ictd.portal.gov.bd/front_service_box/16c40688_fcbc_46d8_8889_c8bf67ba1681/-5_0.png",
+    "items": [
+      "Donation in ICT Innovation",
+      "Fellowship & Scholarship",
+      "Hi-Tech Park One Stop Service",
+      "Other e-Service"
+    ]
+  },
+  {
+    "name": "Citizen's Charter",
+    "image": "https://ictd.gov.bd/sites/default/files/files/ictd.portal.gov.bd/front_service_box/81e22de3_eb83_47fc_a24a_3cd9299b489c/Citizen%20Charter.png",
+    "items": [
+      "Citizen's Charter",
+      "Focal Point/Monitoring Committee",
+      "Work Plan, Monitoring & Evaluation Report",
+      "Laws/Regulations/Policies/Notifications/Circulars/Guidelines"
+    ]
+  },
+  {
+    "name": "Annual Performance Management",
+    "image": "https://ictd.gov.bd/sites/default/files/files/ictd.portal.gov.bd/front_service_box/fa5bf6dd_b0ab_4a7d_a370_56d8b2ae0610/apa.png",
+    "items": [
+      "Guidelines/Circulars/APA Team/Focal Point",
+      "Annual Performance Agreement & Result",
+      "Monitoring and Evaluation Report",
+      "APAMS Software Link"
+    ]
+  },
+  {
+    "name": "National Integrity Strategy",
+    "image": "https://ictd.gov.bd/sites/default/files/files/ictd.portal.gov.bd/front_service_box/61b98574_16c7_4b1e_906e_e332db2f2975/nis_logo3.png",
+    "items": [
+      "Best Practice Work Plan Web Link",
+      "Integrity Strategy Committee & Focal Point",
+      "Monitoring/Evaluation Report",
+      "Laws/Regulations/Policies/Notifications/Circulars/Guidelines/Workplan"
+    ]
+  },
+  {
+    "name": "Grievance Redress System",
+    "image": "https://ictd.gov.bd/sites/default/files/files/ictd.portal.gov.bd/front_service_box/0c447181_d990_48e1_92c3_7a8b429f5e10/complain%20(1)%20(1).png",
+    "items": [
+      "GRS and Appellate Officers",
+      "Work Plan, Monitoring & Evaluation Report",
+      "Grievance Submission (Online)",
+      "Laws/Regulations/Notifications/Policies/Circulars/Guidelines"
+    ]
+  },
+  {
+    "name": "Right to Information",
+    "image": "https://ictd.gov.bd/sites/default/files/files/ictd.portal.gov.bd/front_service_box/deb3c1b7_43c4_4cd2_8fb4_a1f4a17f731b/infocom.png",
+    "items": [
+      "Designated Officer & Appellate Authority",
+      "Application and Appeal Forms",
+      "Self Accessible Information/Progress Report",
+      "Laws/Rules/Workplan/Reports/Policies/Circulars/Guidelines/Notifications"
+    ]
+  },
+  {
+    "name": "Innovative Activities",
+    "image": "https://ictd.gov.bd/sites/default/files/files/ictd.portal.gov.bd/front_service_box/bcac47d9_6e2e_4294_8f9b_c5d08760233c/INNOVATION%20(1).png",
+    "items": [
+      "Innovation Team",
+      "Innovation Idea",
+      "Innovation Work Plan/Publication",
+      "Piloting Project"
+    ]
+  },
+  {
+    "name": "Service Process Simplification",
+    "image": "https://ictd.gov.bd/sites/default/files/files/ictd.portal.gov.bd/front_service_box/9038feed_aabf_4c60_a5ee_0d68abfd7c29/SPS-3.png",
+    "items": [
+      "Notification/Circular/Policy/Publication",
+      "Digital Service",
+      "SPS Example",
+      "List of Simplified Services"
+    ]
+  },
+  {
+    "name": "SDG and Development Plan",
+    "image": "https://ictd.gov.bd/sites/default/files/files/ictd.portal.gov.bd/front_service_box/998960d1_ebe5_4b04_95a6_13e0da9b08ec/FinalLogoSDG.png",
+    "items": [
+      "Ministry/Divisions’ SDG",
+      "SDG Focal/Alternative Focal Point",
+      "SDG National Document",
+      "5th Year Plan & Report"
+    ]
+  },
+  {
+    "name": "Budget & Projects",
+    "image": "https://ictd.gov.bd/sites/default/files/files/ictd.portal.gov.bd/front_service_box/0e980d84_0eca_4411_b8a8_124afc72f6b2/budget2%20(1).png",
+    "items": [
+      "Annual Procurement Plan",
+      "Budget & MTBF Budget",
+      "Budget Reports/Office Orders",
+      "Important Implemented Projects"
+    ]
+  },
+  {
+    "name": "National ICT Policy 2018",
+    "image": "https://ictd.gov.bd/sites/default/files/files/ictd.portal.gov.bd/front_service_box/85ae0c60_feb0_4ec5_ae54_694eb56e03d9/Capture%20(1).JPG",
+    "items": [
+      "National ICT Policy 2018",
+      "Ministry/Division Wise Work Plan",
+      "Office Order/Notification",
+      "Focal Point"
+    ]
+  },
+  {
+    "name": "Miscellaneous",
+    "image": "https://ictd.gov.bd/sites/default/files/files/ictd.portal.gov.bd/front_service_box/4630a5d3_7090_497b_9d9a_fbf358dc8ebf/-%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%BE-1_0.png",
+    "items": [
+      "Different Forms",
+      "Best Practice",
+      "ICT Related Award",
+      "Different Committee"
+    ]
+  }
+]
