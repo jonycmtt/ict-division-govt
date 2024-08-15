@@ -8,7 +8,9 @@ const SingleDepartmentCard = ({ dataItems }: { dataItems: object }) => {
       <div className="card-body ">
         <div className="flex justify-center items-center flex-col gap-y-4">
           <img className="w-24 h-20 object-contain" src={image} alt="" />
-          <h2 className="text-xl font-bold text-[#33333] montserrat">{name}</h2>
+          <h2 className="text-xl font-bold text-[#33333] montserrat text-center">
+            {name}
+          </h2>
         </div>
         <ul className="space-y-2 mt-5">
           {items?.map((item: any, index: number) => (

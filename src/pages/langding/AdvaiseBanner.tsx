@@ -1,7 +1,7 @@
 const AdviseBanner = () => {
   return (
     <div
-      className="py-20 h-[500px] mb-20"
+      className="py-20 h-[500px]"
       style={{
         backgroundImage:
           "linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)), url(https://github.com/jonycmtt/ict-division-govt/blob/main/src/assets/img/dangu.jpeg?raw=true)",
