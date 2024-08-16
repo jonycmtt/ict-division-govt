@@ -1,4 +1,6 @@
-const SingleEService = ({ service }: { service: object }) => {
+import { TDepartment } from "../department/SingleDepartmentCard";
+
+const SingleEService = ({ service }: { service: TDepartment }) => {
   const { image, name } = service;
   return (
     <div className="card card-compact bg-white py-5 shadow">

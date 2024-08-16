@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, useState } from "react";
 import nationalAudio from "../../assets/audio/bd_national_anthem.mp3";
 
 const AudioPlayer: React.FC = () => {

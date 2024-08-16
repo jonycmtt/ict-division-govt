@@ -1,6 +1,12 @@
 import { MdKeyboardArrowRight } from "react-icons/md";
 
-const SingleDepartmentCard = ({ dataItems }: { dataItems: object }) => {
+export type TDepartment = {
+  name?: string;
+  items?: string[];
+  image?: string;
+};
+
+const SingleDepartmentCard = ({ dataItems }: { dataItems: TDepartment }) => {
   const { name, items, image } = dataItems;
 
   return (

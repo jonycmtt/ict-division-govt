@@ -12,16 +12,17 @@ import "swiper/css/thumbs";
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 import { FaImages } from "react-icons/fa";
 import { IoPlayCircleOutline } from "react-icons/io5";
+import { Swiper as SwiperType } from "swiper/types";
 
 const EventSlider = () => {
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+  const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
 
   return (
     <>
       <Swiper
         loop={true}
         spaceBetween={10}
-        thumbs={thumbsSwiper ? { swiper: thumbsSwiper } : undefined} // Add null check here
+        thumbs={thumbsSwiper ? { swiper: thumbsSwiper } : undefined}
         modules={[FreeMode, Navigation, Thumbs]}
         className="mySwiper2"
       >
