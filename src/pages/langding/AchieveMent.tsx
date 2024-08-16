@@ -1,7 +1,7 @@
 const AchieveMent = () => {
   return (
     <div className="my-20 max-w-6xl mx-auto">
-      <div className="mockup-window bg-base-300 border">
+      <div className="mockup-window bg-base-400 border">
         <h2 className="text-center">
           বার্ষিক কর্মসম্পাদন চুক্তি (এপিএ) ২০২০-২০২১ এর চূড়ান্ত মূল্যায়নে তথ্য
           ও যোগাযোগ প্রযুক্তি বিভাগের প্রথম স্থান অর্জন
@@ -21,7 +21,7 @@ const AchieveMent = () => {
           </div>
           <div className="col-span-3 space-y-2 ">
             <h2 className="montserrat text-xl ">Adds</h2>
-            <div role="alert" className="alert ">
+            <div role="alert" className="alert w-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -89,6 +89,30 @@ const AchieveMent = () => {
                   <img
                     className="h-12 rounded"
                     src="https://ictd.gov.bd/sites/default/files/files/ictd.portal.gov.bd/page/f1024bfc_ca81_4ef8_98cd_9a4436b0b423/mygov_logo_en.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <div role="alert" className="alert ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                className="h-6 w-6 shrink-0 stroke-current"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                ></path>
+              </svg>
+              <div>
+                <a href="#">
+                  <img
+                    className="h-12 rounded"
+                    src="https://ictd.gov.bd/sites/default/files/files/ictd.portal.gov.bd/files/f071a55e_9356_44ed_ba33_461288ec14bd/discount_en.jpg"
                     alt=""
                   />
                 </a>

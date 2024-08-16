@@ -4,6 +4,7 @@ import Community from "./Community";
 import DepartmentInfo from "./department/DepartmentInfo";
 import EServices from "./EServices/EServices";
 import NoticeAndEvent from "./NoticeAndEvent";
+import SiteBanner from "./SiteBanner";
 
 const Landing = () => {
   return (
@@ -13,7 +14,8 @@ const Landing = () => {
       <AdviseBanner />
       {/* <Community /> */}
       <NoticeAndEvent />
-      <AchieveMent />
+      {/* <AchieveMent /> */}
+      <SiteBanner />
     </div>
   );
 };
