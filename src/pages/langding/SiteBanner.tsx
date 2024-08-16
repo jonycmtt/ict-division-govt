@@ -1,15 +1,6 @@
 const SiteBanner = () => {
   return (
-    <div
-      className="py-10 min-h-[500px] my-20"
-      style={{
-        backgroundImage:
-          "url(https://gramotech.net/html/balad/images/deprtinfobg.jpg)",
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
+    <div className="py-20 min-h-[500px]">
       <div className="max-w-6xl flex justify-between gap-12 mx-auto w-full ">
         <div className="w-full">
           <h2 className="text-2xl font-bold montserrat mb-10">
