@@ -62,7 +62,7 @@ const AudioPlayer: React.FC = () => {
   };
 
   return (
-    <div className="audio-player bg-gray-100 p-4 rounded-lg shadow-md w-80">
+    <div className="audio-player bg-gray-100 p-4 rounded-lg shadow-md ">
       <audio
         ref={audioRef}
         onTimeUpdate={onTimeUpdate}
@@ -75,7 +75,7 @@ const AudioPlayer: React.FC = () => {
         <div className="flex items-center justify-between w-full">
           <button
             onClick={togglePlayPause}
-            className={`py-2 px-4 rounded text-white ${
+            className={`py-2 px-2 rounded text-white ${
               isPlaying ? "bg-red-500" : "bg-green-500"
             } hover:${isPlaying ? "bg-red-600" : "bg-green-600"}`}
           >
@@ -85,7 +85,7 @@ const AudioPlayer: React.FC = () => {
             type="range"
             value={(currentTime / duration) * 100 || 0}
             onChange={handleSeek}
-            className="w-2/3 mx-2"
+            className="w-full mx-2"
           />
           <span className="text-sm text-gray-700">
             {formatTime(currentTime)}
