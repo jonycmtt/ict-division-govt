@@ -4,14 +4,14 @@ import AudioPlayer from "./AudioPlayer";
 
 const Community = () => {
   return (
-    <div className="py-20  h-auto">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6">
-        <div className="lg:col-span-5">
+    <div className="py-12 lg:py-20 h-auto px-4 xl:px-0">
+      <div className="max-w-5xl mx-auto grid grid-cols-12 gap-y-10 lg:gap-6">
+        <div className="col-span-12 sm:col-span-6 lg:col-span-5">
           <h2 className="text-2xl font-bold mb-8">National Anthem</h2>
           <div className="mockup-phone">
             <div className="camera"></div>
             <div className="display">
-              <div className="artboard artboard-demo phone-1">
+              <div className="artboard artboard-demo phone-1 px-6">
                 <img
                   className="w-full"
                   src="https://github.com/jonycmtt/ict-division-govt/blob/main/src/assets/img/sadhin.png?raw=true"
@@ -22,7 +22,7 @@ const Community = () => {
             </div>
           </div>
         </div>
-        <div className="lg:col-span-4">
+        <div className="col-span-12 sm:col-span-6 lg:col-span-4">
           <h2 className="text-2xl font-bold mb-8">Important Link</h2>
           <ul className="space-y-4">
             <li className="flex items-center gap-2">
@@ -56,7 +56,7 @@ const Community = () => {
           </ul>
         </div>
 
-        <div className="lg:col-span-3">
+        <div className=" col-span-12 sm:col-span-6 lg:col-span-3">
           <h2 className="text-2xl font-bold mb-8"> Adds Show</h2>
           <ul className="space-y-4">
             <li>

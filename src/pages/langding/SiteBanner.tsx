@@ -1,7 +1,7 @@
 const SiteBanner = () => {
   return (
-    <div className="py-20 min-h-[500px]">
-      <div className="max-w-6xl flex justify-between gap-12 mx-auto w-full ">
+    <div className="py-20 min-h-[500px] px-4 xl:px-0">
+      <div className="max-w-6xl flex justify-between flex-col md:flex-row gap-12 mx-auto w-full ">
         <div className="w-full">
           <h2 className="text-2xl font-bold montserrat mb-10">
             বন্যার সময় কি করণীয়

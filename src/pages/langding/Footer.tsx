@@ -3,7 +3,7 @@ import { FaAngleRight } from "react-icons/fa";
 const Footer = () => {
   return (
     <div
-      className=" text-white"
+      className=" text-white "
       style={{
         backgroundImage:
           "url(https://gramotech.net/html/balad/images/h3footerbg.jpg)",
@@ -13,14 +13,17 @@ const Footer = () => {
       }}
     >
       <div className="max-w-6xl mx-auto">
-        <footer className="footer p-10 items-center">
+        <footer className="footer p-2 md:p-10 items-center">
           <nav>
             <div className="my-6">
-              <a className="uppercase text-4xl font-semibold" href="#">
+              <a
+                className="uppercase text-2xl sm:text-4xl font-semibold"
+                href="#"
+              >
                 ICT Division
               </a>
             </div>
-            <ul className="flex items-center gap-4 montserrat text-[16px]">
+            <ul className="flex flex-col sm:flex-row items-center gap-4 montserrat text-[16px]">
               <li className="border-r pr-4">
                 <a href="#">Sitemap</a>
               </li>
@@ -47,7 +50,7 @@ const Footer = () => {
               <h6 className="text-lg font-bold montserrat">
                 Planning and Implementation:
               </h6>
-              <ul className="flex gap-2 my-1 text-[#ddd] montserrat">
+              <ul className="flex flex-col lg:flex-row gap-2 my-1 text-[#ddd] montserrat">
                 <li className="flex items-center gap-1">
                   <FaAngleRight />
                   <a className="link link-hover">Cabinet Division</a>
@@ -89,9 +92,9 @@ const Footer = () => {
                   <input
                     type="text"
                     placeholder="username@site.com"
-                    className="input input-bordered join-item"
+                    className="input input-bordered input-sm join-item"
                   />
-                  <button className="btn btn-primary join-item">
+                  <button className="btn btn-sm btn-primary join-item">
                     Subscribe
                   </button>
                 </div>

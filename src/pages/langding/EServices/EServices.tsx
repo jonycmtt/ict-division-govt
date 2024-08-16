@@ -10,11 +10,9 @@ const EServices = () => {
       .catch((error) => console.error("error fetch json", error));
   }, []);
 
-  console.log(services);
-
   return (
     <div
-      className="relative py-20"
+      className="relative py-10 lg:py-20 px-4 xl:px-0"
       style={{
         backgroundImage:
           "url(https://gramotech.net/html/balad/images/deprtinfobg.jpg)",
@@ -23,10 +21,10 @@ const EServices = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="max-w-6xl mx-auto grid grid-cols-12 gap-12">
-        <div className="col-span-9">
+      <div className="max-w-6xl mx-auto grid grid-cols-12 gap-y-6 lg:gap-12">
+        <div className="col-span-12 lg:col-span-9">
           <div className="section-title">
-            <h2 className="text-[#333333] font-bold text-2xl montserrat">
+            <h2 className="text-[#333333] font-bold text-xl sm:text-2xl montserrat">
               Internal EServices & Information Desk
             </h2>
             <p className="text-[#777777] italic relative my-2 flex items-center gap-2">
@@ -37,21 +35,21 @@ const EServices = () => {
               </span>
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-12 ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-12 ">
             {services?.map((service, index) => (
               <SingleEService key={index} service={service} />
             ))}
           </div>
         </div>
 
-        <div className="col-span-3 bg-[#40407e] w-full  text-center rounded">
+        <div className="col-span-12 lg:col-span-3 bg-[#40407e] w-full  text-center rounded">
           <h2 className="text-white text-xl font-bold montserrat p-6">
             Emergency Hotline Services
           </h2>
           <div className="images-gallery px-2">
             <a href="#">
               <img
-                className="rounded w-full h-[470px]"
+                className="rounded w-full h-[470px] object-contain"
                 src="https://ictd.portal.gov.bd/sites/default/files/files/ictd.portal.gov.bd/npfblock//hotline_v.2_bn.png"
                 alt=""
               />

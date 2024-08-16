@@ -5,7 +5,7 @@ import TopHeader from "./TopHeader";
 
 const Headers = () => {
   return (
-    <div>
+    <div className="relative">
       <TopHeader />
       <MiddleHeader />
       <Navbar />

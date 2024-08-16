@@ -80,6 +80,13 @@ a {
   object-fit: cover;
 }
 .artboard.phone-1 {
-  width: 280px;
+  width: 270px;
   height: 453px;
+}
+
+@media screen and (max-width: 480px) {
+  .artboard.phone-1 {
+    width: 250px;
+    height: 453px;
+  }
 }

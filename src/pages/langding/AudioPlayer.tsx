@@ -72,10 +72,10 @@ const AudioPlayer: React.FC = () => {
         Your browser does not support the audio element.
       </audio>
       <div className="controls flex flex-col items-center justify-between mt-3">
-        <div className="flex items-center justify-between w-full">
+        <div className="flex items-center justify-between w-full px-6">
           <button
             onClick={togglePlayPause}
-            className={`py-2 px-2 rounded text-white ${
+            className={`py-1 px-1 rounded text-white ${
               isPlaying ? "bg-red-500" : "bg-green-500"
             } hover:${isPlaying ? "bg-red-600" : "bg-green-600"}`}
           >

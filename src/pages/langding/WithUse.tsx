@@ -5,7 +5,7 @@ import { MdOutlineToday } from "react-icons/md";
 const WithUse = () => {
   return (
     <div
-      className="py-20"
+      className="py-10 lg:py-20 px-4 xl:px-0"
       style={{
         backgroundImage:
           "url(https://gramotech.net/html/balad/images/h2factsbg.jpg)",
@@ -14,9 +14,9 @@ const WithUse = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="max-w-6xl mx-auto grid grid-cols-2 gap-12">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
         <div
-          className="p-10 rounded text-white "
+          className="p-4 md:p-10 rounded text-white "
           style={{
             backgroundImage:
               "url(https://gramotech.net/html/balad/images/h3newsletterbg.jpg)",
@@ -29,7 +29,7 @@ const WithUse = () => {
             Be Updated with us
           </h3>
           <form action="" className="flex flex-col gap-4">
-            <div className="flex gap-4">
+            <div className="flex flex-col sm:flex-row gap-4">
               <input
                 className="input input-bordered w-full"
                 type="text"
@@ -41,11 +41,11 @@ const WithUse = () => {
                 placeholder="Email Address"
               />
             </div>
-            <div className="grid grid-cols-12 gap-10 mt-4">
-              <span className="col-span-8 italic">
+            <div className="grid grid-cols-12 gap-y-6 lg:gap-10 mt-4">
+              <span className="col-span-12 lg:col-span-8 italic">
                 Signup to get the updates on email from the city & town affairs!
               </span>
-              <button className="btn bg-[#144b8b] border-0 text-white rounded-3xl col-span-4">
+              <button className="btn bg-[#144b8b] border-0 text-white sm:rounded-3xl col-span-12 sm:col-span-4">
                 Subscribe
               </button>
             </div>
@@ -57,7 +57,7 @@ const WithUse = () => {
             Visitor Counter
           </h2>
           <p className="text-[#777777] italic">Free-Hit-Counters.net</p>
-          <div className="grid grid-cols-4 grid-rows-1 mt-6 gap-3">
+          <div className="grid grid-cols-2 lg:grid-cols-4 grid-rows-1 mt-6 gap-3">
             <div className="border p-4 bg-white f">
               <MdOutlineToday className="text-2xl text-[#d94249]" />
               <h2 className=" font-semibold">Today</h2>
