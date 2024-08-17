@@ -94,7 +94,7 @@ const Banner = () => {
         }}
       >
         <div className="max-w-6xl mx-auto text-white flex flex-col lg:flex-row items-center gap-12 px-4 xl:px-0">
-          <div className="relative mt-0 lg:-mt-20 z-50">
+          <div className="relative mt-0 lg:-mt-20 z-30">
             <img
               className="max-w-[700px] h-[350px] rounded-lg  object-cover"
               src="https://ictd.portal.gov.bd/sites/default/files/files/ictd.portal.gov.bd/npfblock//Honorable%20Adviser%20%281%29.jpg"
@@ -139,7 +139,7 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className="relative mt-0 lg:-mt-20 z-50">
+          <div className="relative mt-0 lg:-mt-20 z-30">
             <img
               className="max-w-[700px] h-[350px] rounded-lg object-cover"
               src="https://ictd.portal.gov.bd/sites/default/files/files/ictd.portal.gov.bd/npfblock//Honorable%20Secretary%20Sir.jpg"
