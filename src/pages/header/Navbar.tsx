@@ -25,14 +25,14 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <div className="dropdown">
+          <div className="dropdown relative">
             <summary className="">
               <a tabIndex={0} role="button" className="hover:text-[#12498a]  ">
                 About Us
               </a>
             </summary>
 
-            <div className="dropdown-content bg-base-100 rounded-box z-[1] shadow">
+            <div className="dropdown-content hidden lg:block bg-base-100 rounded-box z-[1] shadow">
               <div
                 tabIndex={0}
                 className="dropdown-content p-8  z-[10] shadow bg-white"
@@ -233,7 +233,7 @@ const Navbar = () => {
               </a>
             </summary>
 
-            <div className="dropdown-content bg-base-100 rounded-box z-[1] shadow">
+            <div className="dropdown-content hidden lg:block bg-base-100 rounded-box z-[1] shadow">
               <div
                 tabIndex={0}
                 className="dropdown-content p-8  z-[10] shadow bg-white"
@@ -264,7 +264,7 @@ const Navbar = () => {
               </a>
             </summary>
 
-            <div className="dropdown-content bg-base-100 rounded-box z-[1] shadow">
+            <div className="dropdown-content hidden lg:block bg-base-100 rounded-box z-[1] shadow">
               <div
                 tabIndex={0}
                 className="dropdown-content p-8  z-[10] shadow bg-white"
@@ -325,7 +325,7 @@ const Navbar = () => {
               </a>
             </summary>
 
-            <div className="dropdown-content bg-base-100 rounded-box z-[1] shadow">
+            <div className="dropdown-content hidden lg:block bg-base-100 rounded-box z-[1] shadow">
               <div
                 tabIndex={0}
                 className="dropdown-content p-8  z-[10] shadow bg-white"
@@ -354,7 +354,7 @@ const Navbar = () => {
               </a>
             </summary>
 
-            <div className="dropdown-content bg-base-100 rounded-box z-[1] shadow">
+            <div className="dropdown-content hidden lg:block bg-base-100 rounded-box z-[1] shadow">
               <div
                 tabIndex={0}
                 className="dropdown-content p-8  z-[10] shadow bg-white"
@@ -409,7 +409,7 @@ const Navbar = () => {
               </a>
             </summary>
 
-            <div className="dropdown-content bg-base-100 rounded-box z-[1] shadow">
+            <div className="dropdown-content hidden lg:block bg-base-100 rounded-box z-[1] shadow">
               <div
                 tabIndex={0}
                 className="dropdown-content p-8  z-[10] shadow bg-white"
@@ -552,7 +552,7 @@ const Navbar = () => {
               </a>
             </summary>
 
-            <div className="dropdown-content bg-base-100 rounded-box z-[1] shadow">
+            <div className="dropdown-content hidden lg:block bg-base-100 rounded-box z-[1] shadow">
               <div
                 tabIndex={0}
                 className="dropdown-content p-8  z-[10] shadow bg-white"
